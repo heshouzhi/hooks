@@ -8,7 +8,6 @@ export default () => {
     useEffect(() => {
         prevCountRef.current = count;
         console.log("我后执行")
-        console.log('test')
     });
     const prevCount = prevCountRef.current;
 
